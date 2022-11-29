@@ -1,3 +1,11 @@
-alert("Hello World")
+// -------Variaves-------
 
-console.log("Olá Mundo")
+
+let nome = 'Henrique';
+console.log(nome);
+
+let altura = '1.80m';
+console.log(altura);
+
+let idade = 18;
+console.log(idade);
