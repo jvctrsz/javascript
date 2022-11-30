@@ -75,5 +75,5 @@ console.log(meuCarro);
     return valor* 2;
  }
 
- let resultado = MultiplicarPorDois(225);
+ let resultado = MultiplicarPorDois(10);
  console.log(resultado);
