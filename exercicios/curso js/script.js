@@ -17,5 +17,20 @@ let sobrenome ;         //undefined
 let corSelecionada = null; //Redefinir um valor
 
 
+//---------OBJETOS----------
+
+let pessoa = {
+    nome: 'Henrique',
+    altura: '1.80m',
+    idade: 18,
+    estaAprovado: true,
+    sobrenome: 'Silva',
+    cor: 'Pardo',
+    cidadania: 'Brasileiro',
+    estadoCivil: 'Solteiro'
+};
+
+console.log(pessoa)
+
 
  
