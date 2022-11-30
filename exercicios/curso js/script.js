@@ -32,5 +32,15 @@ let pessoa = {
 
 console.log(pessoa)
 
+//----------ARRAYS----------
+
+let familia = [26,45,50,17];
+console.log(familia.length);
+console.log(familia[2])
+
+
+let nomeDoColega = ['Weberson',18,'Sinop','Programador']
+console.log(nomeDoColega[0])
+
 
  
