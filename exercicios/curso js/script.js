@@ -43,4 +43,37 @@ let nomeDoColega = ['Weberson',18,'Sinop','Programador']
 console.log(nomeDoColega[0])
 
 
- 
+//---------FUNCTION------------
+
+let corSite = 'Azul';
+
+// ()são os parametros de uma função
+
+let meuCarro = 'Jetta';
+
+function marcaCarro(model,name,ano){
+    meuCarro = model + ' ' + name + ' ' + ano;
+};
+
+console.log(meuCarro);
+marcaCarro("Bmw","M5","2021");
+console.log(meuCarro);
+
+ //---------TIPOS-DE-FUNÇÂO----------
+
+ //realiza uma tarefa e  não retorna nada
+
+ function dizerNome(){
+    console.log('Jhonatan')
+ };
+
+ dizerNome();
+
+ //faz um calculo ou operação e retorna algo
+
+ function MultiplicarPorDois(valor){
+    return valor* 2;
+ }
+
+ let resultado = MultiplicarPorDois(225);
+ console.log(resultado);
