@@ -45,8 +45,6 @@ console.log(nomeDoColega[0])
 
 //---------FUNCTION------------
 
-let corSite = 'Azul';
-
 // ()são os parametros de uma função
 
 let meuCarro = 'Jetta';
