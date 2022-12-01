@@ -51,7 +51,7 @@ switch (permissao) {
 // 5.For..of
 
 for(let i = 1; i <= 5; i++) {
-    console.log('Estou aprendendo!', i)
+    console.log('Estou aprendendo!')
 }
 
 for(let i = 1; i <= 5; i++) {
@@ -63,11 +63,47 @@ for(let i = 1; i <= 5; i++) {
 
 //While loop
 
-let i =5;
+let i = 1;
 
 while (i <= 5) {
-    if(i % 2 !== 0) { // ESTUDAR MODULUS
-        console.log(i);
-    }
+    console.log('Estou aprendendo!')
     i++;
+}
+
+//Do.. While
+
+let w = 0;
+
+do {
+    console.log('digitando!');
+    w++;
+} while ( w < 10)
+
+//Loop For In
+
+const pessoa = {
+    nome: 'Jhonatan',
+    idade: 25
+};
+
+// for(let chave in pessoa) {
+//     console.log(chave,pessoa['nome']);
+// }
+
+const cores = ['Vermelho','Azul','Verde'];
+
+// for(let indice in cores) {
+//     console.log(indice,cores[indice])
+// }
+
+//For-of
+
+for(let cor of cores){
+    console.log(cor);
+}
+
+const nomes = ['Jhonatan','José','Jéssica','Jamilly']
+
+for(let nome of nomes){
+    console.log(nome);
 }
