@@ -89,3 +89,22 @@ console.log(false || true);
 
 let candiatoRecusado = !podeAplicar;
 console.log('candidato recusado: ',candiatoRecusado);
+
+
+
+//--------VALORES-NÂO-BOLEANOS--------
+
+// Falsy
+// undefined
+// null
+// 0
+// false
+// ''
+// NaN
+
+//Truthy
+
+let corPersonalizada = 'Vermelho';
+let corPadrao = 'Azul'
+let corPerfil = corPersonalizada || corPadrao;
+console.log(corPerfil);
