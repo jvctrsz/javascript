@@ -1,4 +1,4 @@
-// const array = [90,90,95];
+// const array = [70,70,80];
 
 // let soma = array.reduce(function(soma, i) {
 //     return soma + i;
