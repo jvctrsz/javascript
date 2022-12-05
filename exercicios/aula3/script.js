@@ -51,7 +51,7 @@ switch (permissao) {
 // 5.For..of
 
 for(let i = 1; i <= 5; i++) {
-    console.log('Estou aprendendo!')
+    console.log('Estou aprendendo!', i)
 }
 
 for(let i = 1; i <= 5; i++) {
@@ -66,7 +66,7 @@ for(let i = 1; i <= 5; i++) {
 let i = 1;
 
 while (i <= 5) {
-    console.log('Estou aprendendo!')
+    console.log('Estou aprendendo!', i)
     i++;
 }
 
