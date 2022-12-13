@@ -16,9 +16,11 @@
 //     console.log('D')
 // }
 
+
 // else if (div >= 70 && div <= 79) {
 //     console.log('C')
 // }
+
 
 // else if (div >= 80 && div <= 89) {
 //     console.log('B')

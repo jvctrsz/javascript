@@ -9,7 +9,7 @@
 
 
 
-let valorMaior = maiorNumero(7,11);
+let valorMaior = maiorNumero(95,26);
 console.log(valorMaior)
 
 function maiorNumero(numero1, numero2){
