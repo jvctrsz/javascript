@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Segurança Virtual!</title>
+    <style>
+        body{
+            font-size: 1.5em;
+            background-color: rgb(134, 134, 134);
+        }
+        input{
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Festa VIP</h1>
+
+    <h2>Bem vindo a festa senhor(a):</h2>
+    <div id="convname">
+        <form>
+            <input type="text" name="convidado" id="iconvidado" placeholder="Digite seu nome" required>
+            
+            <h2>Quem te convidou para a festa?</h2>
+
+            <input type="text" name="dono" id="idono" placeholder="Quem te convidou?" required>
+            <input type="submit" id="isubmit" value="Verificar se posso entrar">
+        </form>
+    </div>
+    <div id="permissao">
+        <h2>Você está permitido a entrar?</h2>
+        <p>Analisando...</p>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
